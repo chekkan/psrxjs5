@@ -1,0 +1,20 @@
+{
+	"name": "psrxjs5",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"start": "webpack-dev-server --watch --inline",
+		"postinstall": "typings install"
+	},
+	"dependencies": {
+		"rxjs": "^5.5.11"
+	},
+	"devDependencies": {
+		"ts-loader": "^4.4.2",
+		"typescript": "^2.9.2",
+		"typings": "^2.1.1",
+		"webpack": "^4.16.1",
+		"webpack-cli": "^3.1.0",
+		"webpack-dev-server": "^3.1.4"
+	}
+}
